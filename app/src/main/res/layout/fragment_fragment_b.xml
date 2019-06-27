@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FragmentB">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="我要测试"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@color/tomato"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/exercise"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="我要练习"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@color/tomato"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
